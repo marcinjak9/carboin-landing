@@ -1,0 +1,25 @@
+{
+  "name": "carboin",
+  "version": "1.0.0",
+  "description": "Small landing page for carboin project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start"
+  },
+  "keywords": [
+    "next",
+    "react"
+  ],
+  "author": "Marcin Jakubik <marcinjak9@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "lottie-react-web": "^2.1.4",
+    "next": "^9.0.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
