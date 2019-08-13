@@ -142,7 +142,7 @@ p {
   background-color: #9D44B5;
   color: #fff;
   text-align: center;
-  line-height: 8px;
+  line-height: 23px;
   font-size: 14px;
 }
 
@@ -153,7 +153,7 @@ p {
 
 .btn {
   display: inline-block;
-  padding: 20px 30px;
+  padding: 10px 20px;
   border-radius: 4px;
   background-color: #9D44B5;
   color: #fff;
@@ -165,6 +165,23 @@ p {
 
 .btn:hover {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.3);
+}
+
+.subscribe input {
+  border: none;
+  outline: none;
+  padding: 11px;
+  /* border: 1px solid #f2f2f2; */
+  width: 250px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.1);
+  margin-right: 10px;
+  border-radius: 4px;
+  padding-left: 20px;
+}
+
+.subscribe p {
+  margin-top: 10px;
+  font-size: 14px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -190,10 +207,19 @@ p {
   }
 
   .banner {
-    padding: 20px;
+    padding: 10px;
+    font-size: 13px;
   }
 
   .counter h3 {
     font-size: 32px;
+  }
+
+  .subscribe input {
+    margin-bottom: 15px;
+  }
+
+  .subscribe .btn {
+    width: 100%;
   }
 }

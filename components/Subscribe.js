@@ -35,10 +35,11 @@ const Subscribe = () => {
           value={email}
           onChange={e => setEmail(e.target.value)}
         />
-        <button >
+        <button className="btn" type="submit">
           Notify me!
         </button>
       </form>
+      <p>Let us send you reminder to save the world 🌲</p>
     </div>
   )
 }
