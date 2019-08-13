@@ -6,6 +6,7 @@ body {
 
 b {
   font-weight: 700;
+  color: #11474A;
 }
 
 p {
@@ -36,6 +37,7 @@ p {
   margin: 0;
 } 
 
+
 .hero-text {
   font-size: 20px;
   letter-spacing: -.01px;
@@ -65,9 +67,9 @@ p {
   min-width: 100%;
 }
 
-.project {
-  margin-top: 100px;
-  margin-bottom: 100px;
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .project h2 {
@@ -85,11 +87,12 @@ p {
   margin: 0 auto;
 }
 
-.roadmap h2 {
+.section-title {
   font-size: 42px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 40px;
+  color: #11474A;
 }
 
 .roadmap h3 {
@@ -106,11 +109,6 @@ p {
   margin-bottom: 6px;
 }
 
-.roadmap-row {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
 .counter {
   text-align: center;
   margin: 20px;
@@ -123,12 +121,14 @@ p {
 .underline {
   text-decoration: underline;
   font-weight: bold;
+  color: #11474A;
 }
 
 .counter h3 {
   margin: 0;
   font-size: 42px;
   font-weight: 700;
+  color: #333; 
 }
 
 .banner {
@@ -182,6 +182,43 @@ p {
 .subscribe p {
   margin-top: 10px;
   font-size: 14px;
+}
+
+.team .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team .img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #11474A;
+}
+
+.team h4 {
+  font-weight: 700;
+  font-size: 21px;
+  margin: 20px 0 10px 0;
+  color: #11474A
+}
+
+.logo {
+  width: 60px;
+  margin-right: 0
+}
+
+.brand {
+  height: 60px;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 600px) {

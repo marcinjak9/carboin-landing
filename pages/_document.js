@@ -34,7 +34,7 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <div dangerouslySetInnerHTML={{ __html: phship }} />
+          {/* <div dangerouslySetInnerHTML={{ __html: phship }} /> */}
         </body>
       </Html>
     );

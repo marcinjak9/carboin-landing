@@ -1,4 +1,7 @@
 import Lottie from "lottie-react-web";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import hero from "../animations/hero.json";
 import bitcoin from "../animations/bitcoin.json";
 import network from "../animations/network.json";
@@ -17,9 +20,13 @@ function Home() {
         <div className="row hero">
           <div className="col">
             <div className="title">
-              <h1>Make Bitcoin Green "Again"</h1>
+              {/* <img src="/static/logo.svg" alt="" className="logo" /> */}
+              <img src="/static/TEXT.svg" alt="" className="brand" />
+              {/* <h2>Make Bitcoin Green "Again"</h2> */}
               <div className="hero-text">
                 We ❤️ Bitcoin, but we ❤️ our Planet too 🌍
+                <span style={{ display: 'block', height: 12 }}></span>
+                We want to <b>decarbonize</b> the blockchain by buying carbon credits and/or <b>planting trees</b> for every <b>transaction</b>.
               </div>
               {/* <a href="mailto:carboinapp@gmail.com" className="btn">Get in touch!</a> */}
               <Subscribe />
@@ -83,9 +90,37 @@ function Home() {
             />
           </div>
         </div>
-        <div className="row roadmap-row">
+        <section className="row team">
+          <div className="col-12">
+            <h2 className="section-title">Contributors</h2>
+          </div>
+          <div className="col">
+          <div className="img" style={{backgroundImage: 'url("/static/marcin.jpg")' }} />
+            <h4>Marcin 💻</h4>
+            <p>Maker & Dev</p>
+            {/* <FontAwesomeIcon icon={faGithub} />
+            <FontAwesomeIcon icon={faLinkedin} />
+            <FontAwesomeIcon icon={faInstagram} /> */}
+          </div>
+          <div className="col">
+            <div className="img" style={{backgroundImage: 'url("/static/ale.jpg")' }} />
+            <h4>Alessandro 📢</h4>
+            <p>Mkt & Communication</p>
+          </div>
+          <div className="col">
+            <div className="img" style={{backgroundImage: 'url("/static/laura.jpg")' }} />
+            <h4>Laura 🖌</h4>
+            <p>Illustration</p>
+          </div>
+          <div className="col">
+            <div className="img" style={{backgroundImage: 'url("/static/mat.png")' }} />
+            <h4>Matthiew 💰</h4>
+            <p>Ambientalist economy</p>
+          </div>
+        </section>
+        <section className="row roadmap-row">
           <div className="col roadmap">
-            <h2>Roadmap</h2>
+            <h2 className="section-title">Roadmap</h2>
             <h3>August</h3>
             <ul>
               <li>Deliver a MVP of the platform</li>
@@ -110,7 +145,7 @@ function Home() {
               <li>Get Rich or die Tryin’</li>
             </ul>
           </div>
-        </div>
+        </section>
       </div>
     </>
   );
