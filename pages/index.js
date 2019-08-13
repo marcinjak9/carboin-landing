@@ -21,7 +21,8 @@ function Home() {
               <div className="hero-text">
                 We ❤️ Bitcoin, but we ❤️ our Planet too 🌍
               </div>
-              <a href="mailto:carboinapp@gmail.com" className="btn">Get in touch!</a>
+              {/* <a href="mailto:carboinapp@gmail.com" className="btn">Get in touch!</a> */}
+              <Subscribe />
             </div>
           </div>
           <div className="col">
