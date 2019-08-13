@@ -108,7 +108,7 @@ function Home() {
             <p>Mkt & Communication</p>
           </div>
           <div className="col">
-            <div className="img" style={{backgroundImage: 'url("/static/laura.jpg")' }} />
+            <div className="img" style={{backgroundImage: 'url("/static/laura2.jpg")' }} />
             <h4>Laura 🖌</h4>
             <p>Illustration</p>
           </div>
