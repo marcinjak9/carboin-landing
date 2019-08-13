@@ -26,8 +26,15 @@ const Subscribe = () => {
 
   return (
     <div className="subscribe">
-      <form name="contact-form" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={handleOnSubmit}>
-        <input type="text" name="email" id="email" placeholder="Your awesome email" value={email} onChange={e => setEmail(e.target.value)} />
+      <form onSubmit={handleOnSubmit}>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Your awesome email"
+          value={email}
+          onChange={e => setEmail(e.target.value)}
+        />
         <button >
           Notify me!
         </button>
