@@ -7,6 +7,7 @@
     "dev": "next",
     "build": "next build",
     "export": "next export",
+    "static": "next build && next export",
     "start": "next start"
   },
   "keywords": [
