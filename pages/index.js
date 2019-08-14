@@ -24,9 +24,14 @@ function Home() {
               <img src="/static/TEXT.svg" alt="" className="brand" />
               {/* <h2>Make Bitcoin Green "Again"</h2> */}
               <div className="hero-text">
-                We ❤️ Bitcoin, but we ❤️ our Planet too 🌍
+                {/* We ❤️ Bitcoin, but we ❤️ our Planet too 🌍 */}
+                Coin is in the air ❤️
                 <span style={{ display: 'block', height: 12 }}></span>
-                We want to <b>decarbonize</b> the blockchain by buying carbon credits and/or <b>planting trees</b> for every <b>transaction</b>.
+                {/* Bitcoin is a great opportunity even if has an huge environmental problem. Carboin want solve it: our goal is decarbonize the blockchain planting trees.  */}
+                {/* Carboin want to solve the enviromental blockchains problem, our goal is decarbonize the blockchain planting trees. */}
+                {/* <br/> */}
+                {/* Easy, green and very cool. */}
+                {/* We want to <b>decarbonize</b> the blockchain by buying carbon credits and/or <b>planting trees</b> for every <b>transaction</b>. */}
               </div>
               {/* <a href="mailto:carboinapp@gmail.com" className="btn">Get in touch!</a> */}
               <Subscribe />
@@ -43,11 +48,15 @@ function Home() {
         </div>
         <div className="row project">
           <div className="col">
-            <h2>Bitcoin has huge 🌱 problem...</h2>
+            <h2>Bitcoin & Environment</h2>
             <p>
-              The environmental risk of the bitcoins blockchain is high, at the moment the annual carbon emissions are near <b>23 megatons of CO2</b>,
-              the equivalent carbon footprint of the Kansas City metropolitan area or somewhere between the carbon levels of Jordan and Sri Lanka.
-              Every bitcoin transaction produces 288 kg of CO2.
+            Every transaction is a tree action.
+            <br />
+            Bitcoin is a great opportunity even if has an huge environmental problem.
+            <br />
+            Carboin want solve it: our goal is decarbonize the blockchain planting trees. 
+            <br />
+            Easy, green and very cool.
             </p>
           </div>
           <div className="col">
@@ -67,19 +76,29 @@ function Home() {
             />
           </div>
           <div className="col">
-            <h2>... but decentralisation 🕸 is great...</h2>
+            <h2>Why we do that</h2>
             <p>
-              We love Bitcoins and other cryptos, it’s a great economical revolution, but we love our planet too!
-              Blockchain technology opened a new era of opportunies and decentralization.
+              Because, first of all, we strongly believe in blockchain like you.
+              <br/>
+              The environmental impact of bitcoins is very high, but the political decentralisation prospective of the technology is too important to give up the opportunity.
+              <br/>
+              At the moment the annual carbon emission are near 23 megatons of CO2, the equivalent carbon footprint of Jordan or Sri Lanka.
+              <br />
+              Every of our bitcoin transaction produce 288 kg of CO2. 
             </p>
           </div>
         </div>
         <div className="row project">
           <div className="col">
-            <h2>... and we want to keep it going 🚀!</h2>
+            <h2>How it works</h2>
             <p>
-              We want to decarbonise the blockchain by buying carbon credits and/or planting trees for every transaction.
-              The transactions are all public in blockchain so we can clean and certify it.
+            Decarbonise bitcoin it’s possible and pretty easy.
+            <br />
+            All transactions are public in blockchain, so we can clean and certify our actions.
+            <br />
+            So we are starting from our transactions buying carbon credits or buying trees and after that we want, togheter with the Green Block community, build a model able to compensate all the blockchain impact on earth. 
+            <br />
+            At the end we all love pizza. Pizza is very important for us, sustain the project offer us a 5$ Margherita!
             </p>
           </div>
           <div className="col">
