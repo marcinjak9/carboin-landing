@@ -11,6 +11,7 @@ import '../styles/main.css'
 import Counter from "../components/Counter";
 import Banner from "../components/Banner";
 import Subscribe from "../components/Subscribe";
+import Contributors from "../components/Contributors.js";
 
 function Home() {
   return (
@@ -20,27 +21,22 @@ function Home() {
         <div className="row hero">
           <div className="col">
             <div className="title">
-              {/* <img src="/static/logo.svg" alt="" className="logo" /> */}
-              <img src="/static/TEXT.svg" alt="" className="brand" />
-              {/* <h2>Make Bitcoin Green "Again"</h2> */}
+              <div className="branding">
+                <img src="/static/LOGO_verde.svg" alt="" className="logo" />
+                <img src="/static/TEXT.svg" alt="" className="brand" />
+              </div>
               <div className="hero-text">
-                {/* We ❤️ Bitcoin, but we ❤️ our Planet too 🌍 */}
                 Coin is in the air ❤️
                 <span style={{ display: 'block', height: 12 }}></span>
-                {/* Bitcoin is a great opportunity even if has an huge environmental problem. Carboin want solve it: our goal is decarbonize the blockchain planting trees.  */}
-                {/* Carboin want to solve the enviromental blockchains problem, our goal is decarbonize the blockchain planting trees. */}
-                {/* <br/> */}
-                {/* Easy, green and very cool. */}
-                {/* We want to <b>decarbonize</b> the blockchain by buying carbon credits and/or <b>planting trees</b> for every <b>transaction</b>. */}
+                Carboin is solving the Bitcoins environmental problem, just planting trees
               </div>
-              {/* <a href="mailto:carboinapp@gmail.com" className="btn">Get in touch!</a> */}
               <Subscribe />
             </div>
           </div>
           <div className="col">
             <Lottie
               options={{
-                animationData: hero
+                animationData: hero,
               }}
             />
             <Counter />
@@ -48,15 +44,13 @@ function Home() {
         </div>
         <div className="row project">
           <div className="col">
-            <h2>Bitcoin & Environment</h2>
+            <h2>The enviromental problem</h2>
             <p>
-            Every transaction is a tree action.
-            <br />
-            Bitcoin is a great opportunity even if has an huge environmental problem.
-            <br />
-            Carboin want solve it: our goal is decarbonize the blockchain planting trees. 
-            <br />
-            Easy, green and very cool.
+              Because, first of all, we strongly believe in blockchain like you.
+              <br/>
+              The environmental impact of bitcoins is very high, but the political decentralization prospective of the technology is too important to give up the opportunity.
+              <br />
+              At the moment the annual carbon emission are near 23 megatons of CO2, the equivalent carbon footprint of Jordan or Sri Lanka.
             </p>
           </div>
           <div className="col">
@@ -65,6 +59,11 @@ function Home() {
                 animationData: pollution
               }}
             />
+          </div>
+        </div>
+        <div className="row quote">
+          <div className="col-12">
+            <h2>Every of our bitcoin transaction produce 288 kg of CO2.</h2>
           </div>
         </div>
         <div className="row project">
@@ -76,29 +75,28 @@ function Home() {
             />
           </div>
           <div className="col">
-            <h2>Why we do that</h2>
+            <h2>How can we solve it?</h2>
             <p>
-              Because, first of all, we strongly believe in blockchain like you.
-              <br/>
-              The environmental impact of bitcoins is very high, but the political decentralisation prospective of the technology is too important to give up the opportunity.
-              <br/>
-              At the moment the annual carbon emission are near 23 megatons of CO2, the equivalent carbon footprint of Jordan or Sri Lanka.
+              Decarbonise bitcoin it’s possible and pretty easy.
               <br />
-              Every of our bitcoin transaction produce 288 kg of CO2. 
+              All transactions are public in blockchain, so we can clean and certify our actions.
+              <br />
+              So we are starting from our transactions buying carbon credits or buying trees and after that we want, togheter with the Green Bloc community, build a model able to compensate all the blockchain impact on earth.
             </p>
+          </div>
+        </div>
+        <div className="row quote">
+          <div className="col-12">
+            <h2>Bitcoin is the beginning of something great: a currency without a government, something necessary and imperative.</h2>
           </div>
         </div>
         <div className="row project">
           <div className="col">
             <h2>How it works</h2>
             <p>
-            Decarbonise bitcoin it’s possible and pretty easy.
-            <br />
-            All transactions are public in blockchain, so we can clean and certify our actions.
-            <br />
-            So we are starting from our transactions buying carbon credits or buying trees and after that we want, togheter with the Green Block community, build a model able to compensate all the blockchain impact on earth. 
-            <br />
-            At the end we all love pizza. Pizza is very important for us, sustain the project offer us a 5$ Margherita!
+              Just get your wallet public address, paste it in the app and select the transactions do you want to decarboinze.
+              <br />
+              Later on you can make a badge and a profile showing how much your wallets are eco-sustainable.
             </p>
           </div>
           <div className="col">
@@ -109,34 +107,7 @@ function Home() {
             />
           </div>
         </div>
-        <section className="row team">
-          <div className="col-12">
-            <h2 className="section-title">Contributors</h2>
-          </div>
-          <div className="col">
-          <div className="img" style={{backgroundImage: 'url("/static/marcin.jpg")' }} />
-            <h4>Marcin 💻</h4>
-            <p>Maker & Dev</p>
-            {/* <FontAwesomeIcon icon={faGithub} />
-            <FontAwesomeIcon icon={faLinkedin} />
-            <FontAwesomeIcon icon={faInstagram} /> */}
-          </div>
-          <div className="col">
-            <div className="img" style={{backgroundImage: 'url("/static/ale.jpg")' }} />
-            <h4>Alessandro 📢</h4>
-            <p>Mkt & Communication</p>
-          </div>
-          <div className="col">
-            <div className="img" style={{backgroundImage: 'url("/static/laura2.jpg")' }} />
-            <h4>Laura 🖌</h4>
-            <p>Illustration</p>
-          </div>
-          <div className="col">
-            <div className="img" style={{backgroundImage: 'url("/static/mat.png")' }} />
-            <h4>Matthiew 💰</h4>
-            <p>Ambientalist economy</p>
-          </div>
-        </section>
+        <Contributors />
         <section className="row roadmap-row">
           <div className="col roadmap">
             <h2 className="section-title">Roadmap</h2>
