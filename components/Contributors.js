@@ -36,7 +36,7 @@ const Contributors = () => {
         </div>
       </div>
       <div className="col">
-        <div className="img" style={{backgroundImage: 'url("/static/laura2.jpg")' }} />
+        <div className="img" style={{backgroundImage: 'url("/static/laura.jpg")' }} />
         <h4>Laura 🖌</h4>
         <p>Illustration</p>
         <div className="social">
