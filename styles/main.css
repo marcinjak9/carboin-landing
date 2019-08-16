@@ -301,4 +301,14 @@ h2 {
   .subscribe .btn {
     width: 100%;
   }
+
+  .branding {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .logo {
+    margin: 0;
+    margin-bottom: 10px;
+  }
 }
