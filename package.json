@@ -7,8 +7,10 @@
     "dev": "next",
     "build": "next build",
     "export": "next export",
-    "static": "next build && next export",
-    "start": "next start"
+    "static": "netlify-lambda build src && next build && next export",
+    "start": "next start",
+    "lambda:dev": "netlify-lambda serve src",
+    "lambda:build": "netlify-lambda serve src"
   },
   "keywords": [
     "next",
@@ -23,6 +25,7 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "@zeit/next-css": "^1.0.1",
     "lottie-react-web": "^2.1.4",
+    "netlify-lambda": "^1.6.2",
     "next": "^9.0.3",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
