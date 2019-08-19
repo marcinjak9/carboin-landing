@@ -46,8 +46,6 @@ function Home() {
           <div className="col">
             <h2>The enviromental problem</h2>
             <p>
-              Because, first of all, we strongly believe in blockchain like you.
-              <br/>
               The environmental impact of bitcoins is very high, but the political decentralization prospective of the technology is too important to give up the opportunity.
               <br />
               At the moment the annual carbon emission are near 23 megatons of CO2, the equivalent carbon footprint of Jordan or Sri Lanka.
