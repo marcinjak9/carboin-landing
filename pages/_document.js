@@ -3,6 +3,8 @@
 
 // ./pages/_document.js
 import Document, { Html, Head, Main, NextScript } from 'next/document';
+import { ServerStyleSheet } from 'styled-components'
+
 
 const phship = `
 <script>
@@ -22,15 +24,19 @@ const phship = `
 `
 
 class MyDocument extends Document {
-  static async getInitialProps(ctx) {
-    const initialProps = await Document.getInitialProps(ctx);
-    return { ...initialProps };
+  static getInitialProps ({ renderPage }) {
+    const sheet = new ServerStyleSheet()
+    const page = renderPage(App => props => sheet.collectStyles(<App {...props} />))
+    const styleTags = sheet.getStyleElement()
+    return { ...page, styleTags }
   }
 
   render() {
     return (
       <Html>
-        <Head />
+        <Head>
+        {this.props.styleTags}
+        </Head>
         <body>
           <Main />
           <NextScript />

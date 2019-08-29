@@ -25,19 +25,24 @@ const Subscribe = () => {
   } 
 
   return (
-    <div className="subscribe">
+    <div>
       <form onSubmit={handleOnSubmit}>
-        <input
-          type="text"
-          name="email"
-          id="email"
-          placeholder="Your awesome email"
-          value={email}
-          onChange={e => setEmail(e.target.value)}
-        />
-        <button className="btn" type="submit">
-          Notify me!
-        </button>
+        <div className="control">
+          <div className="field">
+            <input
+              type="text"
+              name="email"
+              id="email"
+              className="input"
+              placeholder="Your awesome email"
+              value={email}
+              onChange={e => setEmail(e.target.value)}
+            />
+            <button className="button is-primary is-inverted" type="submit">
+              Notify me!
+            </button>
+          </div>
+        </div>
       </form>
       <p>Let us send you reminder to save the world 🌲</p>
     </div>

@@ -1,5 +1,32 @@
 import React, { Component } from 'react'
+import styled from 'styled-components'
 
+const Wrapper = styled.div`
+  text-align: center;
+  margin: 20px;
+  padding: 3rem 0;
+
+  .counter-data {
+    line-height: 40px;
+  }
+
+  .underline {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #11474A;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 42px;
+    font-weight: 700;
+    color: #333; 
+  }
+  img {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+`
 
 const OFFSETS = {
   year: 23000000000,
@@ -37,10 +64,11 @@ class Counter extends Component {
 
   render() {
     return (
-      <div className="counter">
+      <Wrapper className="counter">
+        <img src="/static/assets/Farm.svg" alt=""/>
         <h3>{Math.floor(this.state.n).toLocaleString()} kg </h3>
         <span className="counter-data">of CO2 produced <span className="underline">today</span></span>
-      </div>
+      </Wrapper>
     )
   }
 }
