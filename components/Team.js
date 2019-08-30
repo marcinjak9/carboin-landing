@@ -110,7 +110,7 @@ const Team = () => {
               </a>
             </div>
           </div>
-          <div className="column">
+          {/* <div className="column">
             <div
               className="img"
               style={{ backgroundImage: 'url("/static/mat.png")' }}
@@ -128,7 +128,7 @@ const Team = () => {
                 <FontAwesomeIcon icon={faGlobe} />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </TeamWrapper>

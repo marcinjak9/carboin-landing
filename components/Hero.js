@@ -42,11 +42,19 @@ const HeroWrapper = styled.section`
     /* background: rgb(2,0,36); */
     z-index: 2;
     background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.562062324929972) 50%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(180deg,rgba(0,0,0,.7) 0%,rgba(0,0,0,0.562062324929972) 50%,rgba(255,255,255,0) 100%)
   }
 
   @media (max-width: 700px) {
     height: 50vh;
+
+    .title {
+      font-size: 2rem;
+    }
+
+    .subtitle {
+      font-size: 1.5rem;
+    }
   }
 `
 
@@ -76,6 +84,7 @@ const Hero = () => {
           <h2 className="subtitle has-text-white">
             Carboin is your Bitcoin carbon offset
           </h2>
+          <h3 className="is-3 has-text-white">Make your bitcoin carbon neutral for just 2$ per transaction!</h3>
         </div>
       </div>
       <div className="animation-bg" ref={ref}></div>

@@ -18,21 +18,21 @@ const Environment = () => {
       <HalfSection
         position="first"
         position="small"
-        // title="The enviromental problem"
+        title="Bitcoin and climate change"
         direction="right"
         image="/static/photos/pollution.jpg"
         body="Blockchain has a huge responsibility for climate change, but few of us are aware of it.
         At the moment the annual carbon emissions are near 23 megatons of CO2, the equivalent of Australia's carbon footprint."
       />
       <HalfSection
-        // title="The enviromental problem"
+        title="Cryptography is hard"
         direction="left"
         position="small"
         image="/static/photos/farming.jpg"
         body="Burning huge amounts of electricity aren’t incidental to bitcoin: mining and transactions are based on cryptography, and his safety is based on the computational power needed."
       />
       <HalfSection
-        // title="The enviromental problem"
+        title="Blockchain's opportunity"
         direction="right"
         position="small"
         image="/static/photos/planting.jpg"

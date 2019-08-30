@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import MediaQuery from 'react-responsive'
+import Markdown from 'react-markdown'
 
 
 const addLineBreaks = string =>
@@ -105,17 +106,17 @@ const HalfSection = ({
                 {image && <div className="photo-wrapper"><div className="photo" style={{ backgroundImage: `url(${image})`}} /></div>}
               </div>
             </MediaQuery>
-            <div className="column">
+            <div className="column content">
               <h2 className="title">{title}</h2>
-              <p>{addLineBreaks(body)}</p>
+              <Markdown source={body} escapeHtml={false} />
               {(cta && cta.text) && <a href={cta.url} className="is-link">{cta.text}</a>}
             </div>
             </>
           ) : (
             <>
-            <div className="column">
+            <div className="column content">
               <h2 className="title">{title}</h2>
-              <p>{addLineBreaks(body)}</p>
+              <Markdown source={body} escapeHtml={false} />
               {(cta && cta.text) && <a href={cta.url} className="is-link">{cta.text}</a>}
             </div>
             <MediaQuery minDeviceWidth={701}>

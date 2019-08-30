@@ -13,6 +13,10 @@ const Wrapper = styled.section`
     color: #fff;
     margin: 2rem 0;
   }
+
+  strong {
+    color: #fff;
+  }
 `
 
 const Quote = ({
@@ -20,7 +24,7 @@ const Quote = ({
 }) => {
   return (
       <Wrapper className="section has-background-success">
-        <div className="container has-text-white has-text-centered">
+        <div className="container has-text-white has-text-centered content">
           <h2 className="title has-text-white">
             {title}
             </h2>

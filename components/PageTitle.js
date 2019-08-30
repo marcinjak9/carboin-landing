@@ -7,6 +7,14 @@ const Wrapper = styled.section`
   .title {
     font-size: 2.5rem;
   }
+
+
+  @media (max-width: 700px) {
+    padding: 5rem 1.5rem;
+    .title {
+      font-size: 1.8rem;
+    }
+  }
 `
 
 const PageTitle = () => {
