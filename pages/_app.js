@@ -11,9 +11,8 @@ class MyApp extends App {
     return (
       <Container>
         <Head>
-          <title></title>
-          <meta property="og:title" content="The Rock" />
-          <meta property="og:type" content="video.movie" />
+          <title>Carboin 🌳 - Carbon offset your Bitcoins</title>
+          <meta property="og:title" content="Carboin 🌳 - Carbon offset your Bitcoins" />
           <meta property="og:url" content="https://carboin.org" />
           <meta property="og:image" content="https://carboin.org/static/cover.png" />
           <meta property="og:description" content="Our goal is to make Bitcoin carbon neutral, we want to carbon offset the blockchain and make it more sustainable in a social way. Join our community and make the difference!" />
